@@ -1,0 +1,74 @@
+<!-- 
+  REUSABLE SECTION TEMPLATE
+  
+  Instructions:
+  1. Copy this entire section
+  2. Replace {{SECTION_ID}} with: controlnet, variation, etc.
+  3. Replace {{SECTION_TITLE}} with: ControlNet, Variation, etc.
+  4. Replace image paths with your actual images
+  5. Update the labels under each image
+  6. Paste into portfolio.html before the Play section
+  
+  NOTE: The large "What I Can Do" heading only appears in the first section (Combination of Images).
+  All other sections use only the black section title.
+-->
+
+<!-- Section: {{SECTION_TITLE}} -->
+<section id="{{SECTION_ID}}" class="w-full bg-background-light dark:bg-background-dark py-16 sm:py-20 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+<!-- Section Title -->
+<div class="text-center mb-16">
+<h2 class="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-black dark:text-black mb-4">{{SECTION_TITLE}}</h2>
+</div>
+
+<!-- Image Combination Display -->
+<div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+<!-- Input Image 1 -->
+<div class="flex flex-col items-center">
+<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
+<img src="images/{{SECTION_ID}}/1.png" alt="Input Image 1" class="w-full h-full object-cover"/>
+</div>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Your label for first input image</p>
+</div>
+
+<!-- Plus Icon -->
+<div class="text-primary text-6xl sm:text-7xl font-bold mb-20 lg:mb-0">
++
+</div>
+
+<!-- Input Image 2 -->
+<div class="flex flex-col items-center">
+<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
+<img src="images/{{SECTION_ID}}/2.jpg" alt="Input Image 2" class="w-full h-full object-cover"/>
+</div>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Your label for second input image</p>
+</div>
+
+<!-- Arrow Icon -->
+<div class="text-primary text-5xl sm:text-6xl font-bold mb-20 lg:mb-0">
+→
+</div>
+
+<!-- Output Image -->
+<div class="flex flex-col items-center">
+<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
+<img src="images/{{SECTION_ID}}/3.png" alt="Result Image" class="w-full h-full object-cover transform scale-125"/>
+</div>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Your label for output image</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 
+  EXAMPLE: ControlNet Section
+  
+  To add a new ControlNet section:
+  1. Create folder: images/controlnet/
+  2. Add images: 1.png, 2.jpg, 3.png
+  3. Copy the section above
+  4. Replace:
+     - {{SECTION_ID}} → controlnet
+     - {{SECTION_TITLE}} → ControlNet
+     - Update image labels
+-->
