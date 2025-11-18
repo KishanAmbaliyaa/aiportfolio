@@ -149,10 +149,10 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
 <!-- Input Image 1 -->
 <div class="flex flex-col items-center">
-<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/combo/1.png" alt="Input Image 1" class="w-full h-full object-cover"/>
+<div class="w-48 h-80 sm:w-56 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
+<img src="images/combo/1.png" alt="Input Image 1" class="w-full h-full object-cover object-center"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Normal face reference of a model</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">A cat holding fish</p>
 </div>
 
 <!-- Plus Icon -->
@@ -162,10 +162,10 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 
 <!-- Input Image 2 -->
 <div class="flex flex-col items-center">
-<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/combo/2.jpg" alt="Input Image 2" class="w-full h-full object-cover"/>
+<div class="w-48 h-80 sm:w-56 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary bg-gray-100 dark:bg-gray-800">
+<img src="images/combo/2.jpg" alt="Input Image 2" class="w-full h-full object-contain"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Image of any product, for example perfume</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Reference of bread</p>
 </div>
 
 <!-- Arrow Icon -->
@@ -175,10 +175,10 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 
 <!-- Output Image -->
 <div class="flex flex-col items-center">
-<div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/combo/3.png" alt="Result Image" class="w-full h-full object-cover transform scale-125"/>
+<div class="w-48 h-80 sm:w-56 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
+<img src="images/combo/3.png" alt="Result Image" class="w-full h-full object-cover object-center"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">The model is holding that perfume</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">A cat holding bread</p>
 </div>
 </div>
 </div>
@@ -198,12 +198,12 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <div class="image-comparison-slider relative rounded-2xl overflow-hidden shadow-2xl border-4 border-primary" style="aspect-ratio: 16/9;">
 <!-- After Image (base layer) -->
 <div class="after-image absolute inset-0">
-<img src="images/upscale/2.png" alt="After Upscaling" class="w-full h-full object-cover"/>
+<img src="images/upscale/2.png" alt="After Upscaling" class="w-full h-full object-cover object-center"/>
 <span class="absolute top-4 right-4 bg-black/70 text-white px-4 py-2 rounded-lg font-medium text-lg">After</span>
 </div>
 <!-- Before Image (overlay layer) -->
 <div class="before-image absolute inset-0" style="clip-path: inset(0 50% 0 0);">
-<img src="images/upscale/1.jpeg" alt="Before Upscaling" class="w-full h-full object-cover"/>
+<img src="images/upscale/1.png" alt="Before Upscaling" class="w-full h-full object-cover object-center"/>
 <span class="absolute top-4 left-4 bg-black/70 text-white px-4 py-2 rounded-lg font-medium text-lg">Before</span>
 </div>
 <!-- Slider Handle -->
@@ -235,9 +235,9 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <!-- Image 1: Reference -->
 <div class="flex flex-col items-center">
 <div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/control net/1.jpg" alt="Reference Image" class="w-full h-full object-cover"/>
+<img src="images/control net/1.png" alt="Reference Image" class="w-full h-full object-cover"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Reference image</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Reference image of character pose</p>
 </div>
 
 <!-- Arrow Icon -->
@@ -248,9 +248,9 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <!-- Image 2: Open Pose -->
 <div class="flex flex-col items-center">
 <div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/control net/2.png" alt="Open Pose Image" class="w-full h-full object-cover"/>
+<img src="images/control net/2.png" alt="Auto Depth Pose Detection Image" class="w-full h-full object-cover"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Open pose image</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Auto depth pose detection image</p>
 </div>
 
 <!-- Arrow Icon -->
@@ -261,9 +261,9 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <!-- Image 3: Output -->
 <div class="flex flex-col items-center">
 <div class="w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl mb-4 border-4 border-primary">
-<img src="images/control net/3.png" alt="Output Image" class="w-full h-full object-cover"/>
+<img src="images/control net/3.png" alt="New Image with Same Pose" class="w-full h-full object-cover"/>
 </div>
-<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">Output image with same pose</p>
+<p class="text-center text-lg sm:text-xl text-text-light dark:text-text-dark font-medium max-w-xs">New image with same pose</p>
 </div>
 </div>
 </div>
@@ -387,9 +387,9 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 
 <!-- Prompt Text Box -->
 <div class="flex flex-col items-center justify-center">
-<div class="w-80 sm:w-96 lg:w-[500px] h-80 sm:h-96 rounded-2xl shadow-xl border-4 border-primary bg-white dark:bg-gray-900 p-6 flex items-center justify-center overflow-auto">
-<p class="text-sm sm:text-base text-text-light dark:text-text-dark leading-relaxed text-center">
-"An illustration of a lone white fox made entirely of flowing calligraphic ink strokes, each stroke symbolizing thoughts, ideas, and creative sparks. Its tail branches out like quill-drawn fractal patterns, representing the artist's mental architecture. The background is a deep obsidian void, filled with faint geometric glyphs drifting in soft motion. Ultra-detailed linework, fluid brush techniques, controlled chaos, and a poetic sense of intellectual precision."
+<div class="w-80 sm:w-96 lg:w-[500px] h-80 sm:h-96 rounded-2xl shadow-xl border-4 border-primary bg-white dark:bg-gray-900 p-6 sm:p-8 flex items-center justify-center">
+<p class="text-xs sm:text-sm lg:text-base text-text-light dark:text-text-dark leading-relaxed text-justify">
+"A 3D rendering, cartoon-style digital illustration of a cute little girl dressed as a witch, leaning on a stack of books in a dimly lit room with wooden shelves and candles. She has long, wavy brown hair with purple highlights and large, expressive brown eyes looking directly at the viewer. She's wearing a dark purple witch's hat with a gold button and a black dress with intricate gold embroidery. Her friendly smile and the soft, warm lighting create a cozy atmosphere, highlighting her delicate features. The background features a wooden door and shelves filled with books, adding to the rustic feel."
 </p>
 </div>
 </div>
@@ -443,84 +443,84 @@ Designing with curiosity, strategy, and a little rebellion, because great soluti
 <div class="infinite-scroll-container flex gap-6 lg:gap-8">
 <!-- First set of images -->
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00004_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00154_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00009_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00159_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00053_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00160_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00008_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00162_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00012_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00163_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00166_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00167_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00173_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00179_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
 <img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/comfy_00001_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00065_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00004_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00016_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00040_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00048_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00012_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
 <img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00059_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00079_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00082_.png"/>
 </div>
 
 <!-- Duplicate set for seamless loop -->
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00004_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00154_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00009_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00159_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00053_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00160_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00008_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00162_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00012_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00163_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00166_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00167_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00173_.png"/>
+</div>
+<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/ComfyUI_00179_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
 <img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/comfy_00001_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00065_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00004_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/post__00016_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00040_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00048_.png"/>
+<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00012_.png"/>
 </div>
 <div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
 <img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00059_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00079_.png"/>
-</div>
-<div class="flex-shrink-0 w-64 sm:w-72 md:w-80 lg:w-96">
-<img alt="AI Generated Art" class="w-full h-auto object-cover rounded-xl aspect-[3/4]" src="images/fav/WildCardXLnew_00082_.png"/>
 </div>
 </div>
 </div>
